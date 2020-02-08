@@ -17,6 +17,7 @@ In my own automation system I identified eleven devices that are integrated with
 10.	Water Shutoff Valve
 11.	Whole House Fan
 12.	Motorized Window
+13. Robot Vacuum and Mop
 
 As I described in my second post, I created a template software module with a standard set of inputs from the various sensors in my home along with data my system collects from the Internet.  This includes: 
 
@@ -28,7 +29,7 @@ As I described in my second post, I created a template software module with a st
 •	Scenes (house wide scenes that could include lighting, shades, and other devices)
 •	Module Specific Data (inputs that are unique to each specific module and the device it controls)
 
-I then created each of the above 11 modules and took all the automation logic out of my automation programming and encapsulated it in the modules.  So, for example, if I had eleven lights being controlled by the automation system then there would be eleven lighting modules in the system; one for each light.  Parameters on the module customize it for the individual light that it is connected to. For example, one parameter would tell the automation module whether the light being automated is an interior, or exterior, light.
+I then created each of the above 13 modules and took all the automation logic out of my automation programming and encapsulated it in the modules.  So, for example, if I had eleven lights being controlled by the automation system then there would be eleven lighting modules in the system; one for each light.  Parameters on the module customize it for the individual light that it is connected to. For example, one parameter would tell the automation module whether the light being automated is an interior, or exterior, light.
 
 This significantly simplified the overall programming of my automation system as the modules encapsulate a great deal of the more complicated programming.  Essentially, the programming of my automation system has been changed to that of a simpler control system with the exception of a few additional modules added to it.  
 
